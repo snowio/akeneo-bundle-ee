@@ -1,0 +1,29 @@
+{
+    "name": "snowio/akeneo-bundle-ee",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Hill",
+            "email": "ah@amp.co"
+        }, {
+            "name": "Nei Santos",
+            "email": "ns@amp.co"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/akeneo/pim-community-dev.git",
+            "branch": "master"
+        }
+    ],
+    "require": {
+        "snowio/akeneo-bundle": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Snowio\\Bundle\\CsvConnectorBundleEe\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
