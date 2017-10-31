@@ -2,14 +2,14 @@ extensions:
     snowio-csv-published-product-export-edit:
         module: pim/form/common/edit-form
 
-    snowio-csv-product-export-edit-cache-invalidator:
+    snowio-csv-published-product-export-edit-cache-invalidator:
         module: pim/cache-invalidator
-        parent: snowio-csv-product-export-edit
+        parent: snowio-csv-published-product-export-edit
         position: 1000
 
     snowio-csv-published-product-export-edit-tabs:
         module: pim/form/common/form-tabs
-        parent: snowio-csv-product-export-edit
+        parent: snowio-csv-published-product-export-edit
         targetZone: content
         position: 100
 
@@ -243,9 +243,9 @@ extensions:
         targetZone: filters
         position: 90
 
-    snowio-csv-product-export-edit-content-structure-locales:
+    snowio-csv-published-product-export-edit-content-structure-locales:
         module: pim/job/product/edit/content/structure/locales
-        parent: snowio-csv-product-export-edit-content-structure
+        parent: snowio-csv-published-product-export-edit-content-structure
         targetZone: filters
         position: 100
 
@@ -288,7 +288,7 @@ extensions:
         parent: snowio-csv-published-product-export-edit
 
     snowio-csv-published-product-export-edit-content-data-add-filter:
-        module: pim/job/product/edit/content/data/add-select/attribute
+        module: pim/job/product/edit/content/data/add-filter
         parent: snowio-csv-published-product-export-edit-content-data
         targetZone: headings
         position: 90
