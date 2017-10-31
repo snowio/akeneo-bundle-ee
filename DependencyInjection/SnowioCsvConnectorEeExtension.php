@@ -1,6 +1,6 @@
 <?php
 
-namespace Snowio\Bundle\CsvConnectorBundleEe\DependencyInjection;
+namespace Snowio\Bundle\CsvConnectorEeBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

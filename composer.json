@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Snowio\\Bundle\\CsvConnectorBundleEe\\": ""
+            "Snowio\\Bundle\\CsvConnectorEeBundle\\": ""
         }
     },
     "minimum-stability": "dev"

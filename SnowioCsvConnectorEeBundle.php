@@ -1,6 +1,6 @@
 <?php
 
-namespace Snowio\Bundle\CsvConnectorBundleEe;
+namespace Snowio\Bundle\CsvConnectorEeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -15,7 +15,7 @@ use Pim\Bundle\EnrichBundle\DependencyInjection\Reference\ReferenceFactory;
  * Allows to export published products
  *
  */
-class SnowioCsvConnectorBundleEe extends Bundle
+class SnowioCsvConnectorEeBundle extends Bundle
 {
     /** Increment the version number if exported data has BC break changes. */
     const VERSION = 1;
