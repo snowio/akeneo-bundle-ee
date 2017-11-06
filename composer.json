@@ -19,12 +19,12 @@
     ],
     "require": {
         "snowio/akeneo-bundle": "^1",
-        "akeneo/pim-enterprise-dev": "1.7.1"
+        "akeneo/pim-enterprise-dev": "^1.7"
     },
     "autoload": {
         "psr-4": {
             "Snowio\\Bundle\\CsvConnectorEeBundle\\": ""
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
