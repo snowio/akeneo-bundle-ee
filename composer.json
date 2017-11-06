@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "snowio/akeneo-bundle": "^1",
+        "snowio/akeneo-bundle": "dev-lower-akeneo-version-dependency-on-master",
         "akeneo/pim-enterprise-dev": "^1.7"
     },
     "autoload": {
