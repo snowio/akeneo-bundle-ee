@@ -1,5 +1,5 @@
 services:
-    snowio_connector.provider.form.job_instance:
+    snowio_published_connector.provider.form.job_instance:
         class: '%pim_enrich.provider.form.job_instance.class%'
         arguments:
             -
