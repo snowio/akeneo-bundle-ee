@@ -13,12 +13,16 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "/Users/andrewhill/src/akeneo-bundle"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/akeneo/pim-community-dev.git",
             "branch": "master"
         }
     ],
     "require": {
-        "snowio/akeneo-bundle": "dev-master",
+        "snowio/akeneo-bundle": "dev-attribute-groups",
         "akeneo/pim-enterprise-dev": "^1.7"
     },
     "autoload": {
