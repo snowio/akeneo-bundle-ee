@@ -1,6 +1,6 @@
 batch_jobs:
     full_published_export:
-        label: "Full Published Export (published products, variant groups, categories, attributes, attribute options, and families)"
+        label: "Full Published Export (products, variant groups, categories, attributes, attribute options, families and attribute groups)"
         product.label: "Published Product Export Step"
         variant_group.label: "Variant Group Export Step"
         category.label:  "Category Export Step"
