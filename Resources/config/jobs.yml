@@ -1,6 +1,6 @@
 parameters:
     snowio_connector.connector_name.csv: 'Snowio Connector'
-    snowio_connector.job_name.full_published_export: 'full_published_export'
+    snowio_connector.job_name.full_published_export: 'full_export'
 
 services:
     snowio_connector.job.full_published_export:
